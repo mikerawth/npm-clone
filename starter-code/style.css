@@ -1,0 +1,186 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 25px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.heart {
+  padding: 0 20px 0 0;
+}
+
+.header {
+  background-color:rgb(32, 101, 136);
+  color: white;
+  padding: 25px;
+}
+
+.header-bar {
+  height: 50px;
+}
+
+.header-bar-item {
+  height: 100%;
+  float: left;
+  position: relative;
+  margin: auto;
+}
+
+.header-bar-li {
+  padding: 0;
+  margin: 0 10px;
+}
+
+#findPackages {
+  margin: 0 0 0 25px;
+  width: 450px;
+  background-color: rgb(31, 82, 111);
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.remove-bullets{
+  list-style: none;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.bear-image {
+  /* Difficult time having image auto pick height */
+  height: 50px;
+}
+
+#build-amazing-things {
+  width:400px;
+  margin: 0 auto;
+}
+
+#build-amazing-things img {
+  float: right;
+}
+
+#orgs {
+  background-color:rgb(39, 53, 71);
+  color: white;
+}
+
+.orgs {
+  position: relative;
+  height: 300px;
+  width: 600px;
+  padding:100px;
+  margin: 0 auto;
+  
+}
+
+#orgs img {
+  width: 200px;
+}
+
+#what-is-npm {
+  position: relative;
+  margin: 0;
+  height: 400px;
+  background-color: lightblue;
+  /* image not working */
+  background-image: url("images/forklift.svg");
+  display: cover;
+}
+
+#what-is-npm h2 {
+  margin: 0;
+}
+
+.what-is-npm-text {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  right: 550px;
+}
+
+#building-blocks {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.orange-button {
+  background-color: rgb(240, 146, 51);
+  border: 0;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.red-button {
+  background-color: rgb(203, 56, 55);
+  border: 0;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.darkblue-button {
+  background-color: rgb(49, 68, 88);
+  border: 0;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+}
+
+.font-heading {
+  color: rgb(83, 88, 98);
+}
+
+.font-paragraph {
+  color: rgb(135, 145, 156);
+}
+
+.links-red {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
